@@ -69,12 +69,14 @@ class ProductsForm extends React.Component {
                 value={this.state.minutePrice}
                 onChange={this.handleChange('minutePrice')}
                 margin="normal"
+                type={'number'}
                 variant="outlined"
               />
               <TextField
                 style={textFieldStyle}
                 id="outlined-name"
                 label="Laiko norma min."
+                type={'number'}
                 value={this.state.manufactoringEstimate}
                 onChange={this.handleChange('manufactoringEstimate')}
                 margin="normal"
